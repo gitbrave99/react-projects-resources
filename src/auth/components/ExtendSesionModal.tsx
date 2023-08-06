@@ -7,7 +7,7 @@ interface TokenExpiredProps{
     closeSession:()=>void
 }
 
-const TokenExpiredModal:React.FC<TokenExpiredProps> = ({showModal,counter,extendSession,closeSession}:TokenExpiredProps) => {
+const ExtendSesionModal:React.FC<TokenExpiredProps> = ({showModal,counter,extendSession,closeSession}:TokenExpiredProps) => {
     return (
 
 
@@ -32,7 +32,7 @@ const TokenExpiredModal:React.FC<TokenExpiredProps> = ({showModal,counter,extend
     )
 }
 
-export default TokenExpiredModal
+export default ExtendSesionModal
 
 {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
